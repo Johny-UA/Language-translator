@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0;
+        }
+        html,
+        body {
+            height: 100%;
+        }
+        #header {
+            padding: 20px 0;
+            width: 100%;
+            height: auto;
+            display: flex;
+            background-color: #40c08d;
+            position: relative;
+        }
+        ul {
+            list-style: none;
+            border: 3px solid black;
+            border-radius: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            align-items: center;
+            width: 60vw;
+            height: 50px;
+            margin: 0 0 0 15vw;
+            li {
+                list-style: none;
+                width: auto;
+                border-right: 1px solid;
+                border-left: 1px solid;
+                font-size: 17px;
+                display: flex;
+                justify-content: center;
+                margin: 0 15px;
+            }
+        }
+        #Translater_icons {
+            width: 90px;
+            height: 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            justify-content: space-around;
+            position: absolute;
+            right: 25px;
+            top: 28%;
+            button {
+                border: 3px solid #000;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                background-color: rgba(0, 0, 0, 0);
+                font-weight: bold;
+            }
+        }
+        #Main {
+            width: 100%;
+            height: auto;
+            p {
+                font-size: 20px;
+                word-spacing: 4px;
+                line-height: 24px;
+                padding: 20px 0 40px 0;
+                margin: 0 20px;
+            }
+        }
+    </style>
+    <body>
+        <div id="header">
+            <ul>
+                <li id="Info">Information</li>
+                <li id="AboutUs">About us</li>
+                <li id="Settings">Settings</li>
+                <li id="Contacts">Contacts</li>
+            </ul>
+            <div id="Translater_icons">
+                <button id="EN">EN</button><button id="UA">UA</button>
+            </div>
+        </div>
+        <div id="Main">
+            <p id="text" key="">
+                In the quaint village of Serendipity Springs, where time seemed
+                to meander lazily like a contented river, peculiar events
+                unfolded in a manner as unpredictable as the whims of a
+                mischievous sprite. The townsfolk, with their eclectic array of
+                hats and peculiar pets, lived harmoniously under the perpetual
+                glow of the luminescent moonflower that adorned the central
+                square. One peculiar day, when the sun decided to take a siesta
+                behind a curtain of fluffy clouds, a group of adventurous llamas
+                donning polka-dotted scarves gathered near the mystical wishing
+                well. Legend had it that this well possessed the power to grant
+                wishes, but only if the wisher could recite a limerick backwards
+                while standing on one foot. The llamas, undeterred by the
+                challenge, practiced their limericks and rehearsed their
+                one-foot balancing acts in eager anticipation. Meanwhile, on the
+                outskirts of the village, a trio of acrobatic squirrels with a
+                penchant for peanut butter discovered a hidden portal beneath
+                the ancient oak tree. This portal, swirling with hues of
+                cerulean and chartreuse, led to a parallel dimension inhabited
+                by sentient cupcakes with the ability to recite Shakespearean
+                sonnets. The squirrels, with their newfound companions in tow,
+                embarked on a sugar-infused odyssey, leaving trails of glitter
+                and giggles in their wake. Back in Serendipity Springs, the
+                local pastry shop experienced an unexpected influx of sentient
+                marshmallows who, in a twist of fate, possessed an uncanny
+                talent for stand-up comedy. The marshmallows, with their fluffy
+                exteriors and quick wit, organized impromptu comedy nights that
+                drew crowds from neighboring villages. Laughter echoed through
+                the cobblestone streets as the townsfolk indulged in the
+                unexpected amusement provided by their marshmallow neighbors.
+                Meanwhile, the village librarian, a wise old owl with glasses
+                perched on his beak, stumbled upon an ancient scroll in the
+                dusty archives. The scroll contained a forgotten recipe for a
+                potion that promised to transform ordinary objects into musical
+                instruments. With a twinkle in his wise eyes, the librarian
+                decided to experiment with the potion, and soon, the once-silent
+                bookshelves were alive with the melodic hum of enchanted novels
+                and rhythmic tapping of bewitched quills. As word of the musical
+                library spread, the townsfolk organized a grand parade featuring
+                a procession of tap-dancing penguins, juggling flamingos, and a
+                marching band comprised entirely of kazoo-playing turtles. The
+                parade meandered through the village, weaving a tapestry of joy
+                and jubilation, with even the stoic statues in the town square
+                seemingly joining the festivities with sly smiles and twirls of
+                invisible capes. In the midst of this joyous chaos, a mysterious
+                figure clad in a cloak made of shimmering stardust appeared at
+                the village's entrance. The townsfolk, momentarily pausing their
+                revelry, gathered in hushed anticipation. The figure, with a
+                voice that echoed like a whispering zephyr, announced the
+                arrival of the Great Serendipity Festival, a celebration that
+                would transcend the ordinary and embrace the extraordinary. And
+                so, the village of Serendipity Springs found itself immersed in
+                a kaleidoscope of whimsy, where llamas recited limericks,
+                acrobatic squirrels embarked on sugar-infused odysseys,
+                marshmallows told jokes, enchanted books played music, and the
+                Great Serendipity Festival became an annual tradition, ensuring
+                that the spirit of unpredictability and joy lingered in the air
+                for generations to come.
+            </p>
+        </div>
+        <script src="./script.js"></script>
+        <script src="./Languages.js"></script>
+    </body>
+</html>
